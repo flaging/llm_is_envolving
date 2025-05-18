@@ -1,0 +1,18 @@
+[project]
+name = "lie_ai"
+version = "0.1.1"
+description = "A simple Python CLI tool that measure llm intelligence by questions."
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+dependencies = []
+
+[project.scripts]
+lie = "lie_ai.__init__:main"
+
+[tool.setuptools.packages]
+find = {}
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
