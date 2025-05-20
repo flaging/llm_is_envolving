@@ -1,11 +1,11 @@
 [project]
 name = "lie_ai"
-version = "0.1.1"
-description = "A simple Python CLI tool that measure llm intelligence by questions."
+version = "0.1.2"
+description = "A CLI tool for asking LLM questions like 'which is bigger, 9.11 or 9.4?'"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 
-dependencies = []
+dependencies = ['openai']
 
 [project.scripts]
 lie = "lie_ai.__init__:main"
